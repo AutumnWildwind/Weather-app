@@ -77,15 +77,26 @@ main {
   font-size: 28px;
 }
 .weather-forecast {
-  margin-top: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
 }
 .weather-forecast-date {
+  text-align: center;
   font-size: 16px;
-  opacity: 0.5;
+  line-height: 20px;
+  margin-bottom: 10px;
+  color: grey;
+}
+.weather-forecast-icon {
+  font-size: 38px;
+  text-align: center;
 }
 .weather-forecast-temperatures {
-  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 .weather-forecast-temperature-max {
   color: firebrick;
